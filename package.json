@@ -1,0 +1,42 @@
+{
+  "name": "react-redux-todo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx webpack-dev-server --mode development --open --hot",
+    "build": "npx webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhi3693/react-redux-todo-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhi3693/react-redux-todo-app/issues"
+  },
+  "homepage": "https://github.com/Abhi3693/react-redux-todo-app#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  },
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-redux": "^8.0.1",
+    "redux": "^4.2.0"
+  }
+}
